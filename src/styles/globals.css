@@ -1,0 +1,47 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+.traffic {
+background-color: black;
+
+}
+
+.red, yellow, green {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+
+/* 
+.row {
+    background-color: black;
+    margin-top: 5%;
+    justify-content: center;
+    padding-bottom: 20%;
+}
+
+.col {
+    border-color: black;
+    border-style: dotted;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 2cm;
+    background-color: blue;
+    color:black;
+} */
