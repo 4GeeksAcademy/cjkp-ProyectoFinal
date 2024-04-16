@@ -1,6 +1,6 @@
 import { useSupabaseClient, useUser } from "@supabase/auth-helpers-react";
 import { useRouter } from "next/router";
-import { securePage } from "./services/securePage";
+import { securePage } from "../services/securePage";
 export default securePage(function Dashboard() {
   const supabase = useSupabaseClient();
   const router = useRouter();
