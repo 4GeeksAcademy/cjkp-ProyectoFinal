@@ -1,11 +1,6 @@
 export default function Create () {
     return (
-        <form className="contenedorcreate text-center mb-12">
-
-        
-
-
-
+        <div className="contenedorcreate text-center mb-12">
             <div className="row">
                 <div className="col-6">
                     <h2>Description</h2>
@@ -31,8 +26,6 @@ export default function Create () {
                     </button>
                 </div>
             </div>
-            </form>
-        
-        
+            </div>
     )
 }
